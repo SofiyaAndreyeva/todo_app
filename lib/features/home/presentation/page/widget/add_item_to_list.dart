@@ -74,6 +74,7 @@ class _AddItemToListState extends State<AddItemToList> {
                                   description: controller.text,
                                 ),
                               );
+                              controller.clear();
                             }
                           },
                           child: Container(
